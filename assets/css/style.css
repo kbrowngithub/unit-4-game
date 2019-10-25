@@ -3,14 +3,14 @@
 	background-size: 100%;
  }
 
- .header { 
+ .header {
     font-family: fantasy;
-    color: blueviolet;
+    color: maroon;
     text-align: center;
   }
 
   .directions {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 2%;
     background-color: white;
   }
@@ -53,9 +53,9 @@
     }
 
     .sidebar {
-      border: 2px solid black;
+      /* border: 2px solid black; */
       padding: 2%;
       background-color: maroon;
-      opacity: .3;
+      /* opacity: .3; */
     }
 
