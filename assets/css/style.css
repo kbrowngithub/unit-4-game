@@ -1,0 +1,54 @@
+ .backdrop { 
+	background-image: url("../images/backgroundImg.png");
+	background-size: 100%;
+ }
+
+ .header { 
+    font-family: fantasy;
+    color: blueviolet;
+    text-align: center;
+  }
+
+  .directions {
+    border: 2px solid black;
+    padding: 2%;
+    background-color: white;
+  }
+
+  img.resize {
+    width:200px;
+    height:200px;
+  }
+  
+  .randomNumber {
+    border: 2px solid black;
+    padding: 3%;
+    background-color: white;
+    color: maroon;
+    font-size: 200%; 
+  }
+  
+  .totalWL { 
+    border: 2px solid black;
+    padding: 2%; 
+    background-color: white;
+    font-size: 130%;
+   }
+  
+   .totalScore {
+     /* border: 2px solid black; 
+     background-color: white; */
+     font-size: 150%;
+   }
+  
+   .scoreCounter {
+    /* border: 2px solid black; 
+    background-color: white; */
+     font-size: 150%;
+   }
+
+    .wins, .losses { 
+    padding: 2%;
+    color: maroon;
+    }
+

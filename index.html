@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Crystals Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="backdrop">
+    <div class="container">
+        <div class="row">
+            <h1 class="header">Crystals Collector!</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 directions"></div>
+            <div class="col-lg-6 directions">
+                <h3>How to play:</h3>
+                <p>At the start of each game a random number is generated (Number to hit).</p>
+                <p>Each of the crystals below is assigned a value. By clicking one you add it's value to your number.</p>
+                <p>You win the game by clicking the crystals and getting your number to match the random number.</p>
+                <p>If you go over the random number you loose.</p>
+            </div>
+            <div class="col-lg-3 directions"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 randomNumber">Number to hit:</div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3 totalWL">
+                <div class="row wins">Wins:</div>
+                <div class="row losses">Losses:</div>
+            </div>
+        </div>
+        <br>
+        <div class="row" id="crystalsRow">
+            <div class="col-sm-6 col-md-3 crystal">
+                <img src="./assets/images/crystal1.jpg" alt="crystal1" class="img resize" id="img1">
+            </div>
+            <div class="col-sm-6 col-md-3 crystal">
+                <img src="./assets/images/crystal2.jpg" alt="crystal2" class="img resize" id="img2">  
+            </div>
+            <div class="col-sm-6 col-md-3 crystal">
+                <img src="./assets/images/crystal3.jpg" alt="crystal3" class="img resize" id="img3">
+            </div>
+            <div class="col-sm-6 col-md-3 crystal">
+                <img src="./assets/images/crystal4.jpg" alt="crystal4" class="img resize" id="img4">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 totalScore">Total Score:</div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 scoreCounter">Score Counter:</div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
